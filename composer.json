@@ -1,0 +1,31 @@
+{
+  "name": "gulios/sxf-geoip",
+  "type": "library",
+  "description": "SXF GeoIp Component",
+  "minimum-stability": "stable",
+  "keywords": [],
+  "homepage": "https://www.gulios.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artur Gulios Milkowski",
+      "email": "gulios@gulios.pl",
+      "homepage": "https://www.gulios.com",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "geoip2/geoip2": "2.8.*"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "1.7.*",
+    "phpunit/phpunit": "7.0.*",
+    "filp/whoops": "2.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SXF\\GeoIp\\": "src/"
+    }
+  }
+}
